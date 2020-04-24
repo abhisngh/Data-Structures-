@@ -11,7 +11,7 @@ void print_dfs(int** edges,int n,int si,bool* visited)
     {
       continue;
     }
-    if(edges[siUpdate ][i]==1)
+    if(edges[si][i]==1)
     {
       if(visited[i]==1)
       {
