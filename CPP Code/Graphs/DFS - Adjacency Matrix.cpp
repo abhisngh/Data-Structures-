@@ -7,11 +7,11 @@ void print_dfs(int** edges,int n,int si,bool* visited)
   visited[si]=true;
   for(int i=0;i<n;i++)
   {
-    if(i==sv)
+    if(i==si)
     {
       continue;
     }
-    if(edges[sv][i]==1)
+    if(edges[siUpdate ][i]==1)
     {
       if(visited[i]==1)
       {
